@@ -1,0 +1,7 @@
+version: "3.10"
+services:
+  app:
+    build: .
+    platform: linux/amd64  # 他の計算機でも使えるように Arm ではなく x86_64 を指定
+    volumes:
+      - ./:/app
