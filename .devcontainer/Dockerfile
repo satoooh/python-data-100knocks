@@ -15,18 +15,7 @@ USER jovyan
 
 # JupyterLab 関連のパッケージ（いくつかの拡張機能を含む）
 RUN pip install --upgrade pip \
-    &&  pip install --no-cache-dir \
-    # black \
-    jupyter_contrib_nbextensions
-    # jupyterlab \
-    # jupyterlab_code_formatter \
-    # jupyterlab-git \
-    # lckr-jupyterlab-variableinspector \
-    # jupyterlab_widgets \
-    # ipython \
-    # ipykernel \
-    # ipywidgets \
-    # import-ipynb
+    &&  pip install --no-cache-dir jupyter_contrib_nbextensions
 
 #install packages
 RUN pip install --no-cache-dir \
