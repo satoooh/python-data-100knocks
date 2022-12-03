@@ -15,7 +15,7 @@ USER jovyan
 
 # JupyterLab 関連のパッケージ（いくつかの拡張機能を含む）
 RUN pip install --upgrade pip \
-    &&  pip install --no-cache-dir jupyter_contrib_nbextensions
+    && pip install --no-cache-dir jupyter_contrib_nbextensions
 
 #install packages
 RUN pip install --no-cache-dir \

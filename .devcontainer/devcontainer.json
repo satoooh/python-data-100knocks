@@ -8,5 +8,10 @@
 		"ms-python.python",
 		"ms-python.vscode-pylance",
 	],
-	"workspaceFolder": "/home/jovyan/work"
+	"workspaceFolder": "/home/jovyan/work",
+	"settings": {
+		"python.analysis.extraPaths": [
+			"/opt/conda/lib/python3.10/site-packages"
+		]
+	}
 }
